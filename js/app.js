@@ -71,7 +71,7 @@ console.log(ques3) ;
 }
 question3();
 
-
+function question4() {
 let ques4 =prompt('Do you know in which university I graduated from ?');
 ques4 = ques4.toLowerCase();
  switch(ques4){
@@ -90,7 +90,8 @@ ques4 = ques4.toLowerCase();
 }
 console.log(ques4) ;
 
-
+}
+question4();
 
 let ques5 =prompt('Do I like food ?');
 ques5 = ques5.toLowerCase();
