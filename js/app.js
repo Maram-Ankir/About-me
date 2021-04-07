@@ -166,7 +166,7 @@ question6();
 
 
 
-
+function question7() {
 for (let i=1 ;i<=6 ;i++){
 let guessColor=prompt('Try to quess a color');
 guessColor=guessColor.toLowerCase();
@@ -186,5 +186,7 @@ if ((guessColor===color[0]) || (guessColor===color[1]) || (guessColor===color[2]
 
  alert ("Refresh the page to play again");
 console.log('Thanks for playing your socre is ' +  score);
+}
 
+question7();
 
