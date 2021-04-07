@@ -4,9 +4,9 @@
 let score = 0;
 let userName =prompt('What\'s your name?');
 alert('Welcome to my website  ' + userName + '  Let\'s play the game ^_^')
-
 alert('The answer should be (yes) or (no) only for the first 5 question ');
 
+function question1(){  
 let ques =prompt('Do you know my full name?');
 ques = ques.toLowerCase();
  switch(ques){
@@ -23,10 +23,9 @@ ques = ques.toLowerCase();
       alert('please enter yes or no');
  break;
 }
-
 console.log(ques) ;
-
-
+}
+question();
 
 
 
