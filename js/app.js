@@ -117,6 +117,7 @@ question5();
 
 // The sixth question :
 
+function question6() {
 for (let i=1 ;i<=4 ;i++){
 let guessNum =prompt('Please guess a number and enter it ?');
 console.log(typeof guessNum);
@@ -137,7 +138,9 @@ if (guessNum>5){
 }
 }
  alert('All chances are over ...... The correct number is 5 ')
+}
 
+question6();
 
 
 //the seventh question :
