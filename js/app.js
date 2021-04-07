@@ -93,6 +93,8 @@ console.log(ques4) ;
 }
 question4();
 
+
+function question5() {
 let ques5 =prompt('Do I like food ?');
 ques5 = ques5.toLowerCase();
  switch(ques5){
@@ -110,7 +112,8 @@ ques5 = ques5.toLowerCase();
    break;
 }
 console.log(ques5) ;
-
+}
+question5();
 
 // The sixth question :
 
