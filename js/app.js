@@ -50,7 +50,7 @@ function question2() {
 question2();
 
 
-
+function question3() {
 let ques3 =prompt('Do you know my favarite color?');
 ques3 = ques3.toLowerCase();
  switch(ques3){
@@ -68,6 +68,8 @@ ques3 = ques3.toLowerCase();
    break; 
 }
 console.log(ques3) ;
+}
+question3();
 
 
 let ques4 =prompt('Do you know in which university I graduated from ?');
