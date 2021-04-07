@@ -25,27 +25,29 @@ ques = ques.toLowerCase();
 }
 console.log(ques) ;
 }
-question();
+question1();
 
 
-
-let ques2 =prompt('Do you know my Age?');
-ques2 = ques2.toLowerCase();
- switch(ques2){
-    case 'yes':  
-    case 'y':
-      score++;
-        alert('correct Im 22 years old ✅');
-      break;
-      case 'no':
-        case 'n':
-          alert('not correct try again');
-        break; 
-        default:
-        alert('please enter yes or no');
-   break;
+function question2() {
+  let ques2 =prompt('Do you know my Age?');
+  ques2 = ques2.toLowerCase();
+   switch(ques2){
+      case 'yes':  
+      case 'y':
+        score++;
+          alert('correct Im 22 years old ✅');
+        break;
+        case 'no':
+          case 'n':
+            alert('not correct try again');
+          break; 
+          default:
+          alert('please enter yes or no');
+     break;
+  }
+  console.log(ques2) ;
 }
-console.log(ques2) ;
+question2();
 
 
 
